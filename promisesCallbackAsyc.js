@@ -238,7 +238,7 @@ async function calc() {
         throw new Error('Something went wrong')
     }
 }
-calc();*/
+calc();
 const t=setInterval(()=>{
     calc();
 },3000)
@@ -248,3 +248,6 @@ const calc=()=>{
 setTimeout(()=>{
     clearInterval(t)
 },9000)
+*/
+
+

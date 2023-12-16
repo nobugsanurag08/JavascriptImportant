@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <script src="promisesCallbackAsyc.js"></script>
-<h1>hsgdkjfg</h1>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+</head>
+<script src="promisesCallbackAsyc.js"></script>
+<!-- <h1>hsgdkjfg</h1> -->
+
 <body>
 
-    <p>Player 1: Chris</p>
+    <!-- <p>Player 1: Chris</p>
     <p>Player 2: Harsh Ganesh</p>
 
     <p>Player 1: Chris2</p>
@@ -19,7 +21,7 @@
 
 
     <script src="index.js">
-    </script>
+    </script> -->
 
 </body>
 <!-- <div class="box">Hover Me</div>
@@ -27,13 +29,38 @@
 
 </html> -->
 <html>
+
 <head>
     <link rel="stylesheet" href="index.css">
 </head>
-<body>
+<!-- <body>
     <div class="box"></div>
     <div class="box"></div>
     <div class="box"></div>
     <script src="index.js"></script>
+</body> -->
+
+<body>
+
+    <h1>Display a Search Field</h1>
+    <label for="gsearch">Search Name:</label>
+    <!-- <div class="margin10" style="padding: 10px;">
+        <label for="searchInput">Search: </label>
+        <input type="text" id="searchInput" [(ngModel)]="searchTerm" oninput="onSearchInput()">
+        <button style="float: right; border-radius: 8px;" onclick="sortName()">sort name</button>
+        <div class="elements" *ngFor="let a of newelement" style="margin: 10px;">
+            <h4 (click)="selectedName(a)">
+                {{a}}
+            </h4>
+            <mat-divider>
+            </mat-divider>
+        </div>
+    </div> -->
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Search by name" oninput="onSearchInput()">
+        <ul id="resultList"></ul>
+      </div>
+    <script src="script.js"></script>
 </body>
+
 </html>
